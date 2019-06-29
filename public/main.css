@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.w3-bar a {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.mySlides {
+    display: none
+}
+
+.w3-container {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#303030;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("/assets/california_sunshine_weed_tours.jpg");
+  
+    /* Set a specific height */
+    height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax img {
+      max-width: 100%;
+  }
