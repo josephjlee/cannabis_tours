@@ -5,6 +5,12 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.w3-bar a img {
+  max-width: 20%;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .w3-bar a {
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -44,13 +50,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color:#74D14C;
     color: white;
     font-size: 26px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 16px;
   }
 
   .mySlides .btn:hover {
